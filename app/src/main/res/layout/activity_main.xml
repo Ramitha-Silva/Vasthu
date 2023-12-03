@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textEnd"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAutoCal"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="180dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
+        android:autoSizeTextType="none"
+        android:text="@string/btn_auto"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:textSize="20sp"
+        android:tooltipText="@string/btn_auto_tooltip"
+        app:icon="@drawable/autocal"
+        app:iconGravity="textTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInfo" />
+
+    <Button
+        android:id="@+id/btnNekath"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="180dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:autoSizeTextType="none"
+        android:text="@string/btn_galapuma"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:textSize="20sp"
+        android:tooltipText="@string/btn_galapuma_tooltip"
+        app:icon="@drawable/match"
+        app:iconGravity="textTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="180dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="4dp"
+        android:autoSizeTextType="none"
+        android:text="@string/btn_info"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:textSize="20sp"
+        android:tooltipText="@string/btn_info_tooltip"
+        app:icon="@drawable/ic_info"
+        app:iconGravity="textTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/MainScreenText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="180dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="19dp"
+        android:autoSizeTextType="none"
+        android:text="@string/btn_area_calculator"
+        android:textAlignment="textStart"
+        android:textDirection="firstStrong"
+        android:textSize="20sp"
+        android:tooltipText="@string/btn_area_calculator_tooltip"
+        app:icon="@drawable/ic_house2"
+        app:iconGravity="textTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

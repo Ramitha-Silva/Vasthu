@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report">
+
+    <TextView
+        android:id="@+id/textAyushaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textAyushaR"
+        app:layout_constraintTop_toBottomOf="@+id/textDevathaS" />
+
+    <TextView
+        android:id="@+id/textDevathaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textDevathaR"
+        app:layout_constraintTop_toBottomOf="@+id/textVanshaS" />
+
+    <TextView
+        android:id="@+id/textVanshaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textVanshaR"
+        app:layout_constraintTop_toBottomOf="@+id/textThithiS" />
+
+    <TextView
+        android:id="@+id/textThithiS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textThithiR"
+        app:layout_constraintTop_toBottomOf="@+id/textRashiS" />
+
+    <TextView
+        android:id="@+id/textRashiS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textRashiR"
+        app:layout_constraintTop_toBottomOf="@+id/textAnsakaS" />
+
+    <TextView
+        android:id="@+id/textAnsakaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textAnshakaR"
+        app:layout_constraintTop_toBottomOf="@+id/textDinaS" />
+
+    <TextView
+        android:id="@+id/textDinaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textDinaR"
+        app:layout_constraintTop_toBottomOf="@+id/textNekathaS" />
+
+    <TextView
+        android:id="@+id/textNekathaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textNekathaR"
+        app:layout_constraintTop_toBottomOf="@+id/textYoniS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textYoniS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textYoniR"
+        app:layout_constraintTop_toBottomOf="@+id/textVayaS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textVayaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textVayaR"
+        app:layout_constraintTop_toBottomOf="@+id/textAyaS"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textThithiR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textThithi"
+        app:layout_constraintTop_toBottomOf="@+id/textRashiR" />
+
+    <TextView
+        android:id="@+id/textDevathaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textDevatha"
+        app:layout_constraintTop_toBottomOf="@+id/textVanshaR" />
+
+    <TextView
+        android:id="@+id/textAyushaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textAyusha"
+        app:layout_constraintTop_toBottomOf="@+id/textDevathaR"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textVanshaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textWansha"
+        app:layout_constraintTop_toBottomOf="@+id/textThithiR" />
+
+    <TextView
+        android:id="@+id/textRashiR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textRashi"
+        app:layout_constraintTop_toBottomOf="@+id/textAnshakaR" />
+
+    <TextView
+        android:id="@+id/textAnshakaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textAnsaka"
+        app:layout_constraintTop_toBottomOf="@+id/textDinaR" />
+
+    <TextView
+        android:id="@+id/textDinaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textDina"
+        app:layout_constraintTop_toBottomOf="@+id/textNekathaR" />
+
+    <TextView
+        android:id="@+id/textNekathaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textNekatha"
+        app:layout_constraintTop_toBottomOf="@+id/textYoniR"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textYoniR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textYoni"
+        app:layout_constraintTop_toBottomOf="@+id/textVayaR"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textVayaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textVaya"
+        app:layout_constraintTop_toBottomOf="@+id/textAyaR"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textAyaS"
+        android:layout_width="44dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/asuba"
+        app:layout_constraintStart_toEndOf="@+id/textAyaR"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textAyusha"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ayusha_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDevatha"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textDevatha"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/devatha_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWansha" />
+
+    <TextView
+        android:id="@+id/textWansha"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/vansha_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textThithi" />
+
+    <TextView
+        android:id="@+id/textThithi"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/thithi_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRashi" />
+
+    <TextView
+        android:id="@+id/textRashi"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/rashi_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAnsaka" />
+
+    <TextView
+        android:id="@+id/textAnsaka"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/anshaka_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDina" />
+
+    <TextView
+        android:id="@+id/textDina"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/dina_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNekatha" />
+
+    <TextView
+        android:id="@+id/textNekatha"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/nekatha_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textYoni"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textYoni"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/yoni_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVaya"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textAya"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/aya_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textVaya"
+        android:layout_width="195dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/vaya_porondama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAya"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textAyaR"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textAya"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textReportStatus"
+        android:layout_width="402dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAyusha" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

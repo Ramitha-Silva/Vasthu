@@ -1,0 +1,166 @@
+<resources>
+    <!-- APP NAME` -->
+    <string name="app_name">වාස්තු වර්ග ගණනය</string>
+
+
+    <!-- LAYOUT Area` -->
+    <string name="Parameters">වර්ග පොරොන්දම්  ගණනය කරන නිර්ණායකය තෝරන්න </string>
+    <string name="selected_item">Selected item:</string>
+    <string name="Area_Parameter1">නිවසේ වර්ග අඩි ගණන මගින්</string>
+    <string name="Area_Parameter2">නිවසේ වර්ග අගල් ගණන මගින්</string>
+    <string name="Area_Parameter3">නිවසේ දිග සහ පළල අඩි සහ අඟල් වලින් </string>
+    <string name="btn_area_calculator">වර්ග ගණනය</string>
+    <string name="btn_area_calculator_tooltip">වර්ග ගණනය සදහා මෙම බොත්තම තෝරන්න </string>
+
+
+    <string name="labelSqft">වර්ග අඩි ගණන</string>
+    <string name="labelInch">වර්ග අගල් ගණන</string>
+    <string name="labelLengthWidth">දිග සහ පළල</string>
+    <string name="labelLength">දිග</string>
+    <string name="labelWidth">පළල</string>
+    <string name="labelLengthFt">අඩි</string>
+    <string name="labelLengthInch">අඟල්</string>
+    <string name="labelWidthFt">අඩි</string>
+    <string name="labelWidthInch">අඟල්</string>
+    <string name="btnCalculate">ගණනය</string>
+
+
+    <!-- MAIN screen ACITIVITY BUTTONS` -->
+    <string name="btn_info">වර්ග තොරතුරු </string>
+    <string name="btn_info_tooltip">වර්ග තොරතුරු සඳහා මෙම බොත්තම තෝරන්න </string>
+
+    <string name="btn_galapuma">නැකත් ගැලපුම</string>
+    <string name="btn_galapuma_tooltip">නිවාස නැකත පවුලේ ජන්ම නැකත් හා ගැලපීම</string>
+
+    <string name="btn_auto">ස්වයං ගණනය</string>
+    <string name="btn_auto_tooltip">ස්වයංක්‍රිය ප්‍රශස්ථ වර්ග ගණනය සඳහා මෙම යෙදුම භාවිතා කරන්න </string>
+
+    <string name="MainScreenText">වර්ග පොරොන්දම් ගණනය සහ විස්තර සදහා පහත මෙවලම් භාවිතා කරන්න </string>
+    <string name="importance">නිසි වර්ගඵලයක් සහිත වීම නිවසක වැදගත්ම වාස්තු අවශ්‍යතාවයයි. මෙය නිවැරදි නොවීම නිසා නිවාස තුල  බොහෝ ප්‍රශ්නවලට හේතුවී ඇති බව පෙනේ.
+නිවසක ආදායම  සහ වියදම් ඇතුළුව දුක සහ දෝෂ  ඇති කරන බොහෝ කරුණු මෙයින් නිවැරදි කරගත හැකිය.
+මෙම  යෙදුම මගින් නිවසේ වර්ගය බලා නිවැරදි කරගැනීමට හැකිවේ.</string>
+
+
+
+    <!-- REPORT STRINGS` -->
+    <string name="yoni_1_dvaja">ද්වජ</string>
+    <string name="yoni_2_dhumu">ධුමු</string>
+    <string name="yoni_3_sinha">සිංහ</string>
+    <string name="yoni_4_sunakha">සුනඛ</string>
+    <string name="yoni_5_vrushabha">වෘෂභ</string>
+    <string name="yoni_6_kotalu">කොටලු</string>
+    <string name="yoni_7_gaja">ගජ</string>
+    <string name="yoni_0_dvanksha">කාක</string>
+
+    <string name="nekatha_1_pusha">පුෂ</string>
+    <string name="nekatha_2_visa">විසා</string>
+    <string name="nekatha_3_siyawasa">සියාවස</string>
+    <string name="nekatha_4_muwasirasa">මුවසිරස</string>
+    <string name="nekatha_5_hatha">හත</string>
+    <string name="nekatha_6_uthrasala">උත්‍රසල</string>
+    <string name="nekatha_7_berana">බෙරණ</string>
+    <string name="nekatha_8_ma">මා</string>
+    <string name="nekatha_9_deta">දෙට</string>
+    <string name="nekatha_10_uthraputupa">උත්‍රපුටුප</string>
+    <string name="nekatha_11_punawasa">පුනාවස</string>
+
+    <string name="nekatha_12_sa">සා</string>
+    <string name="nekatha_13_denata">දෙනට</string>
+    <string name="nekatha_14_rehena">රෙහෙන</string>
+    <string name="nekatha_15_uthrapal">උත්‍රපල්</string>
+    <string name="nekatha_16_puwasala">පුවසල</string>
+    <string name="nekatha_17_asvida">අස්විද</string>
+    <string name="nekatha_18_aslisa">අස්ලිස</string>
+    <string name="nekatha_19_anura">අනුර</string>
+    <string name="nekatha_20_puwaputupa">පුවපුටුප</string>
+    <string name="nekatha_21_ada">අද</string>
+    <string name="nekatha_22_sitha">සිත</string>
+    <string name="nekatha_23_suwana">සුවන</string>
+    <string name="nekatha_24_kathi">කැති</string>
+    <string name="nekatha_25_puwapal">පුවපල්</string>
+    <string name="nekatha_26_chula">චුල</string>
+    <string name="nekatha_27_revathi">රේවතී</string>
+
+
+    <string name="dina_1_Chandra">චන්ද්‍ර‍</string>
+    <string name="dina_2_budha">බුධ</string>
+    <string name="dina_3_sikuru">සිකුරු</string>
+    <string name="dina_4_ravi">රවී</string>
+    <string name="dina_5_kuja">කුජ</string>
+    <string name="dina_6_guru">ගුරු</string>
+    <string name="dina_0_senasuru">සෙනසුරු</string>
+
+
+    <string name="anshaka_1_artha">අර්ථ‍</string>
+    <string name="anshaka_2_arthahina">අර්ථහින‍</string>
+    <string name="anshaka_3_bala">බල‍</string>
+    <string name="anshaka_4_durbala">දුර්බල</string>
+    <string name="anshaka_5_bhutha">භූත‍</string>
+    <string name="anshaka_6_danya">ධාන්‍ය‍</string>
+    <string name="anshaka_7_thas">තස්‍</string>
+    <string name="anshaka_8_nrupathi">න්රුපති‍</string>
+    <string name="anshaka_0_pretha">ප්‍රේත</string>
+
+    <string name="rashi_1_mesha">මේෂ‍</string>
+    <string name="rashi_2_vrushaba">වෘෂභ‍</string>
+    <string name="rashi_3_mithuna">මිථුන‍</string>
+    <string name="rashi_4_kataka">කටක‍</string>
+    <string name="rashi_5_sinha">සිංහ‍</string>
+    <string name="rashi_6_mesha">කන්‍යා‍</string>
+    <string name="rashi_7_thula">තුලා‍</string>
+    <string name="rashi_8_vrushchika">වෘශ්චික‍</string>
+    <string name="rashi_9_dhanu">ධනු‍</string>
+    <string name="rashi_10_makara">මකර‍</string>
+    <string name="rashi_11_kumbha">කුම්භ‍</string>
+    <string name="rashi_12_mina">මීන‍</string>
+
+
+    <string name="vansha_1_brahmana">බ්‍රාහ්මණ‍</string>
+    <string name="vansha_2_kshathriya">ක්ෂත්‍රිය‍</string>
+    <string name="vansha_3_vaishya">වෛශ්‍ය‍</string>
+    <string name="vansha_4_kshudra">ක්ෂුද්‍ර‍</string>
+
+
+    <string name="devatha_1_brahma">බ්‍රහ්ම‍</string>
+    <string name="devatha_2_vishnu">විෂ්ණු‍</string>
+    <string name="devatha_3_shiva">ශිව‍</string>
+
+
+    <string name="suba">සුබ</string>
+    <string name="asuba">අසුබ</string>
+
+
+    <string name="aya_porondama">අය පොරොන්දම</string>
+    <string name="vaya_porondama">වැය පොරොන්දම</string>
+    <string name="yoni_porondama">යෝනි පොරොන්දම</string>
+    <string name="nekatha_porondama">නැකත පොරොන්දම</string>
+    <string name="dina_porondama">දින පොරොන්දම</string>
+    <string name="anshaka_porondama">අංශක පොරොන්දම</string>
+    <string name="rashi_porondama">රාශි පොරොන්දම</string>
+    <string name="thithi_porondama">තිථි පොරොන්දම</string>
+    <string name="vansha_porondama">වංශ පොරොන්දම</string>
+    <string name="devatha_porondama">දේවතා පොරොන්දම</string>
+    <string name="ayusha_porondama">ආයුෂ පොරොන්දම</string>
+
+    <!-- REPORT SUMMARY` -->
+    <string name="porondam_report_1">ප්‍රධාන පොරොන්දම් නොගැලපේ.</string>
+    <string name="porondam_report_2">ප්‍රධාන පොරොන්දම් ගැලපේ.</string>
+    <string name="porondam_report_3">සමස්ථ පොරොන්දම් ගැලපීමේ ප්‍රතිශතය</string>
+    <string name="porondam_report_4">තද පැහැයෙන් දක්වා ඇති පොරොන්දම් ප්‍රධාන පොරොන්දම් ලෙස සැලකිය යුතුය.</string>
+    <string name="porondam_report_5">තවදුරටත් මෙහි නැකත් පොරොන්දම් ගෙහිමියගේ ජන්ම නැකත් සමග ගැලපීමට නැකත් ගැලපුම් මෙනුව තෝරාගන්න.</string>
+
+
+    <!-- FULLAPP ACTIVITY MESSAGE` -->
+    <string name="Light_Message">මම පහසුකම සදහා රු 250 ගෙවා පුර්ණ සංස්කරණය ලබා ගන්න</string>
+
+
+    <!-- INFO STRINGS -->
+    <string name="how_to_get_area">වර්ගඵලය ලබාගැනීම </string>
+    <string name="how_to_get_area_description">නිවසේ අත්තිවාරම පිටින් පිට වර්ගඵලයයි. වැරැන්ඩා, car පෝච් ආදිය නොගැනේ </string>
+
+    <string name="aya_vargaya">ආය වර්ගය - යෝනි පොරොන්දම</string>
+
+
+
+
+</resources>
